@@ -1,0 +1,375 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+/* Form style */
+.loginForm{
+    width: 1300px;
+    height: 450px;
+    color: black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+/* heading style */
+h1{
+    margin: 30px 0 50px 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+/* label style */
+.loginForm p{
+    margin: 7px 0 7px 0;
+    padding: 0 420px 0 0px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(192, 150, 103);
+}
+/* input field style */
+.loginForm input{
+    border: none;
+    background: rgb(245, 243, 241);
+    width: 500px;
+    height: 40px;
+    color: gray;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+/* font awesome icon style */
+#pass i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+/* input field functionality */
+.loginForm input:focus{
+    background: transparent;
+    border: 1px solid rgb(243, 186, 113);
+    width: 500px;
+    color: black;
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+    border-radius: 10px;
+}
+/* button style */
+.loginForm button{
+    margin: 24px 0 0 0;
+    padding: 10px;
+    cursor: pointer;
+    background: rgb(20, 22, 136);
+    color: white;
+    border-radius: 10px;
+    width: 500px;
+    border: none;
+}
+/* button hover effect */
+.loginForm button:hover{
+    padding: 10px;
+    cursor: pointer;
+    background: white;
+    color: rgb(20, 22, 136);
+    border-radius: 10px;
+    width: 500px;
+    border: 1px solid  rgb(20, 22, 136);
+}
+/* sign in link style */
+a{
+    text-decoration: none;
+    color: rgb(240, 74, 9);
+}
+/* sign in statement style */
+.signIn #sign{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(192, 150, 103);
+    margin: 120px 0 0 0 ;
+}
+/* responsiveness */
+@media screen and (max-width: 1049px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+    /* Form style */
+    .loginForm{
+        width: 1000px;
+        height: 350px;
+        color: black;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 70px 30px;
+    }
+    /* heading style */
+    h1{
+        margin: 30px 0 50px 0;
+        padding: 0 0 20px 0;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+    /* label style */
+    .loginForm p{
+        margin: 7px 0 7px 0;
+        padding: 0 420px 0 0px;
+        font-size: 12px;
+        text-align: center;
+        color: rgb(192, 150, 103);
+    }
+    /* input field style */
+    .loginForm input{
+        border: none;
+        background: rgb(245, 243, 241);
+        width: 500px;
+        height: 40px;
+        color: gray;
+        margin: 5px 0 5px 0;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    /* font awesome icon style */
+    #pass i {
+        margin-left: -30px;
+        cursor: pointer;
+    }
+    /* input field functionality */
+    .loginForm input:focus{
+        background: transparent;
+        border: 1px solid rgb(243, 186, 113);
+        width: 500px;
+        color: black;
+        margin: 5px 0 5px 0;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    /* button style */
+    .loginForm button{
+        margin: 24px 0 0 0;
+        padding: 10px;
+        cursor: pointer;
+        background: rgb(20, 22, 136);
+        color: white;
+        border-radius: 10px;
+        width: 500px;
+        border: none;
+    }
+    /* button hover effect */
+    .loginForm button:hover{
+        padding: 10px;
+        cursor: pointer;
+        background: white;
+        color: rgb(20, 22, 136);
+        border-radius: 10px;
+        width: 500px;
+        border: 1px solid  rgb(20, 22, 136);
+    }
+    /* sign in link style */
+    a{
+        text-decoration: none;
+        color: rgb(240, 74, 9);
+    }
+    /* sign in statement style */
+    .signIn #sign{
+        text-align: center;
+        font-size: 12px;
+        color: rgb(192, 150, 103);
+        margin: 200px 0 0 0 ;
+    }
+}
+@media screen and (max-width: 873px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+    /* Form style */
+    .loginForm{
+        width: 800px;
+        height: 250px;
+        color: black;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 50px 10px;
+    }
+    /* heading style */
+    h1{
+        margin: 20px 0 40px 0;
+        padding: 0 0 15px 0;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+    /* label style */
+    .loginForm p{
+        margin: 5px 0 5px 0;
+        padding: 0 350px 0 0px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(192, 150, 103);
+    }
+    /* input field style */
+    .loginForm input{
+        border: none;
+        background: rgb(245, 243, 241);
+        width: 500px;
+        height: 40px;
+        color: gray;
+        margin: 5px 0 5px 0;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+    /* font awesome icon style */
+    #pass i {
+        margin-left: -30px;
+        cursor: pointer;
+    }
+    /* input field functionality */
+    .loginForm input:focus{
+        background: transparent;
+        border: 1px solid rgb(243, 186, 113);
+        width: 450px;
+        color: black;
+        margin: 5px 0 5px 0;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    /* button style */
+    .loginForm button{
+        margin: 24px 0 0 0;
+        padding: 10px;
+        cursor: pointer;
+        background: rgb(20, 22, 136);
+        color: white;
+        border-radius: 10px;
+        width: 500px;
+        border: none;
+    }
+    /* button hover effect */
+    .loginForm button:hover{
+        padding: 10px;
+        cursor: pointer;
+        background: white;
+        color: rgb(20, 22, 136);
+        border-radius: 10px;
+        width: 450px;
+        border: 1px solid  rgb(20, 22, 136);
+    }
+    /* sign in link style */
+    a{
+        text-decoration: none;
+        color: rgb(240, 74, 9);
+    }
+    /* sign in statement style */
+    .signIn #sign{
+        text-align: center;
+        font-size: 10px;
+        color: rgb(192, 150, 103);
+        margin: 200px 0 0 0 ;
+    }
+}
+@media screen and (max-width: 390px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        background-size: cover;
+        background-position: center;
+        font-family: sans-serif;
+    }
+    /* Form style */
+    .loginForm{
+        width: 350px;
+        height: 70px;
+        color: black;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 40px 50px;
+    }
+    /* heading style */
+    h1{
+        margin: 15px auto 30px auto;
+        padding: 0 0 15px 0;
+        text-align: center;
+        font-size: 15px;
+        color: black;
+    }
+    /* label style */
+    .loginForm p{
+        margin: 5px 0 5px 0;
+        padding: 0 180px 0 0px;
+        font-size: 10px;
+        text-align: center;
+        color: rgb(192, 150, 103);
+    }
+    /* input field style */
+    .loginForm input{
+        border: none;
+        background: rgb(245, 243, 241);
+        width: 230px;
+        height: 25px;
+        color: gray;
+        margin: 5px 0 5px 0;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    /* font awesome icon style */
+    #pass i {
+        margin-left: -30px;
+        cursor: pointer;
+    }
+    /* input field functionality */
+    .loginForm input:focus{
+        background: transparent;
+        border: 1px solid rgb(243, 186, 113);
+        width: 230px;
+        color: black;
+        margin: 5px 0 5px 0;
+        font-size: 12px;
+        border-radius: 8px;
+    }
+    /* button style */
+    .loginForm button{
+        margin: 20px 0 0 0;
+        padding: 8px;
+        cursor: pointer;
+        background: rgb(20, 22, 136);
+        color: white;
+        border-radius: 10px;
+        width: 230px;
+        border: none;
+    }
+    /* button hover effect */
+    .loginForm button:hover{
+        padding: 8px;
+        cursor: pointer;
+        background: white;
+        color: rgb(20, 22, 136);
+        border-radius: 10px;
+        width: 230px;
+        border: 1px solid  rgb(20, 22, 136);
+    }
+    /* sign in link style */
+    a{
+        text-decoration: none;
+        color: rgb(240, 74, 9);
+    }
+    /* sign in statement style */
+    .signIn #sign{
+        text-align: center;
+        font-size: 10px;
+        color: rgb(192, 150, 103);
+        margin: 350px 0 0 0 ;
+    }
+}
